@@ -28,7 +28,7 @@ public class Selenium {
         options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
         options.addArguments("--no-sandbox"); // Bypass OS security model
         options.addArguments("--headless"); // Bypass OS security model
-        d = new ChromeDriver();
+        d = new ChromeDriver(options);
     }
 
     public Selenium(String url) throws InterruptedException {
