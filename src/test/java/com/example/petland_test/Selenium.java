@@ -20,7 +20,7 @@ public class Selenium {
 
     public Selenium(){
         WebDriverManager.firefoxdriver().setup();
-        FirefoxOptions options = new FirefoxOptions();
+        ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized"); // open Browser in maximized mode
         options.addArguments("disable-infobars"); // disabling infobars
         options.addArguments("--disable-extensions"); // disabling extensions
@@ -28,7 +28,7 @@ public class Selenium {
         options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
         options.addArguments("--no-sandbox"); // Bypass OS security model
         options.addArguments("--headless"); // Bypass OS security model
-        d = new FirefoxDriver();
+        d = new ChromeDriver();
     }
 
     public Selenium(String url) throws InterruptedException {
