@@ -32,8 +32,7 @@ public class Selenium {
     }
 
     public Selenium(String url) throws InterruptedException {
-        System.setProperty("webdriver.firefox.driver", "../driver/geckodriver");
-        d = new FirefoxDriver();
+        this();
         d.get(url);
         Thread.sleep(1000);
     }
