@@ -30,4 +30,9 @@ public class MainPageTest {
         String currentTitle = s.d.getTitle();
         assertThat(currentTitle).isEqualTo("Tiki - Mua hàng online giá tốt, hàng chuẩn, ship nhanh");
     }
+
+    @Test
+    public void testFail(){
+        assertThat(1).isEqualTo(2);
+    }
 }
