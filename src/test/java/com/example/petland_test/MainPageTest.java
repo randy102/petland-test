@@ -2,11 +2,12 @@ package com.example.petland_test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import static com.google.common.truth.Truth.*;
 
-
+@Listeners({TestListener.class})
 public class MainPageTest {
     private Selenium s;
 
@@ -18,11 +19,6 @@ public class MainPageTest {
     @BeforeMethod
     public void setUp() throws InterruptedException {
         s = new Selenium("https://tiki.vn/");
-    }
-
-    @AfterMethod
-    public void tearDown() {
-        s.quit();
     }
 
     @Test
