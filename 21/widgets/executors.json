@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://randy102.github.io/petland-test",
+  "buildOrder" : 21,
+  "buildName" : "GitHub Actions Run #722537539",
+  "buildUrl" : "https://github.com/randy102/petland-test/actions/runs/722537539",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://randy102.github.io/petland-test/21/"
+} ]
