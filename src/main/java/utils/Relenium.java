@@ -1,4 +1,4 @@
-package com.example.petland_test;
+package utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -7,18 +7,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
+import javax.swing.*;
 import java.util.List;
 import java.util.UUID;
 
-public class Selenium {
-    WebDriver d;
+public class Relenium {
+    public WebDriver d;
 
-    public Selenium(){
+    public Relenium(){
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized"); // open Browser in maximized mode
@@ -27,11 +26,11 @@ public class Selenium {
         options.addArguments("--disable-gpu"); // applicable to windows os only
         options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
         options.addArguments("--no-sandbox"); // Bypass OS security model
-        options.addArguments("--headless");
+        // options.addArguments("--headless");
         d = new ChromeDriver(options);
     }
 
-    public Selenium(String url) throws InterruptedException {
+    public Relenium(String url) throws InterruptedException {
         this();
         d.get(url);
         Thread.sleep(1000);

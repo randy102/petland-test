@@ -1,35 +1,30 @@
-package com.example.petland_test;
+package pages;
 
+import com.google.common.truth.Truth;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.ITestResult;
 import org.testng.annotations.*;
+import utils.Relenium;
 
 import static com.google.common.truth.Truth.*;
 import static java.lang.System.getProperty;
 
 public class MainPageTest {
-    private Selenium s;
-
-    @BeforeClass
-    public static void setupClass() {
-        WebDriverManager.chromedriver().setup();
-    }
+    private Relenium s;
 
     @BeforeMethod
     public void setUp() throws InterruptedException {
         String url = getProperty("url");
-        s = new Selenium(url);
+        s = new Relenium(url);
     }
 
     @Test
     public void testTitle() {
         String currentTitle = s.d.getTitle();
-        assertThat(currentTitle).isEqualTo("Tiki");
+        Truth.assertThat(currentTitle).isEqualTo("Tiki");
     }
 
     @Test
     public void testFail(){
-        assertThat(1).isEqualTo(2);
+        Truth.assertThat(1).isEqualTo(2);
     }
 }
