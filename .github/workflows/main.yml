@@ -21,3 +21,7 @@ jobs:
         run: mvn -B test --file pom.xml
       - name: Allure report
         uses: afiore/action-allure-report@v0.1.0
+      - uses: actions/upload-artifact@v2
+        with:
+          name: upload-allure-report
+          path: allure-report/
