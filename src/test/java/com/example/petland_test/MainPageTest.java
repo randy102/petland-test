@@ -6,6 +6,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import static com.google.common.truth.Truth.*;
+import static java.lang.System.getProperty;
 
 @Listeners({TestListener.class})
 public class MainPageTest {
@@ -18,7 +19,8 @@ public class MainPageTest {
 
     @BeforeMethod
     public void setUp() throws InterruptedException {
-        s = new Selenium("https://tiki.vn/");
+        String url = getProperty("url");
+        s = new Selenium(url);
     }
 
     @Test
