@@ -8,7 +8,6 @@ import org.testng.annotations.*;
 import static com.google.common.truth.Truth.*;
 import static java.lang.System.getProperty;
 
-@Listeners({TestListener.class})
 public class MainPageTest {
     private Selenium s;
 
@@ -26,7 +25,7 @@ public class MainPageTest {
     @Test
     public void testTitle() {
         String currentTitle = s.d.getTitle();
-        assertThat(currentTitle).isEqualTo("Tiki - Mua hàng online giá tốt, hàng chuẩn, ship nhanh");
+        assertThat(currentTitle).isEqualTo("Tiki");
     }
 
     @Test
