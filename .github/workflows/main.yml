@@ -19,3 +19,5 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       - name: Run tests with Maven
         run: mvn -B test --file pom.xml
+      - name: Allure report
+        uses: afiore/action-allure-report@v0.1.0
