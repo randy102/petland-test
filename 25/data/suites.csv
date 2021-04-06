@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"skipped","Tue Apr 06 14:42:48 GMT 2021","Tue Apr 06 14:42:48 GMT 2021","1","Surefire suite","Surefire test","pages.MainPageTest","pages.MainPageTest","testTitle","testTitle",""
-"broken","Tue Apr 06 14:42:48 GMT 2021","Tue Apr 06 14:42:48 GMT 2021","2","Surefire suite","Surefire test","pages.MainPageTest","pages.MainPageTest","setUp","setUp",""
-"skipped","Tue Apr 06 14:42:48 GMT 2021","Tue Apr 06 14:42:48 GMT 2021","10","Surefire suite","Surefire test","pages.MainPageTest","pages.MainPageTest","testFail","testFail",""
