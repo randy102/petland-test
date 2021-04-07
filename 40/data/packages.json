@@ -4,26 +4,26 @@
     "name" : "test.TestLoginPage",
     "children" : [ {
       "name" : "testOpenLoginPage",
-      "uid" : "e97951e58aad6ba6",
+      "uid" : "76b2e7657e5ba72f",
       "parentUid" : "139c1c5ccf6d5978c1bf9f97585fb9eb",
       "status" : "passed",
       "time" : {
-        "start" : 1617765837739,
-        "stop" : 1617765839502,
-        "duration" : 1763
+        "start" : 1617766892513,
+        "stop" : 1617766894191,
+        "duration" : 1678
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "testRequiredLogin",
-      "uid" : "7fadbc6daebecc9e",
+      "uid" : "d2fe3363ff9f37d7",
       "parentUid" : "139c1c5ccf6d5978c1bf9f97585fb9eb",
       "status" : "passed",
       "time" : {
-        "start" : 1617765839616,
-        "stop" : 1617765839925,
-        "duration" : 309
+        "start" : 1617766894324,
+        "stop" : 1617766894600,
+        "duration" : 276
       },
       "flaky" : false,
       "newFailed" : false,

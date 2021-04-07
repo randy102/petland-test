@@ -1,39 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az245-297",
+    "name" : "fv-az272-922",
     "children" : [ {
-      "name" : "4108@fv-az245-297.main(1)",
+      "name" : "4287@fv-az272-922.main(1)",
       "children" : [ {
         "name" : "Open login page successfully",
-        "uid" : "e97951e58aad6ba6",
-        "parentUid" : "bdba51b5825bab713a81917fed177ddc",
+        "uid" : "76b2e7657e5ba72f",
+        "parentUid" : "a3f8a64a6c59e67b23b11df7d1a8abda",
         "status" : "passed",
         "time" : {
-          "start" : 1617765837739,
-          "stop" : 1617765839502,
-          "duration" : 1763
+          "start" : 1617766892513,
+          "stop" : 1617766894191,
+          "duration" : 1678
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Email and password should required",
-        "uid" : "7fadbc6daebecc9e",
-        "parentUid" : "bdba51b5825bab713a81917fed177ddc",
+        "uid" : "d2fe3363ff9f37d7",
+        "parentUid" : "a3f8a64a6c59e67b23b11df7d1a8abda",
         "status" : "passed",
         "time" : {
-          "start" : 1617765839616,
-          "stop" : 1617765839925,
-          "duration" : 309
+          "start" : 1617766894324,
+          "stop" : 1617766894600,
+          "duration" : 276
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "bdba51b5825bab713a81917fed177ddc"
+      "uid" : "a3f8a64a6c59e67b23b11df7d1a8abda"
     } ],
-    "uid" : "aac7d2a68637ff3d48318804b416657e"
+    "uid" : "9760314dc7902cfd882c6eb9fbe5d257"
   } ],
   "name" : "timeline"
 }

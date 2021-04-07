@@ -1,12 +1,12 @@
 {
-  "uid" : "7fadbc6daebecc9e",
-  "name" : "Email and password should required",
-  "fullName" : "test.TestLoginPage.testRequiredLogin",
-  "historyId" : "22d8d424df7d4f3ae1119a81983fc8dc",
+  "uid" : "76b2e7657e5ba72f",
+  "name" : "Open login page successfully",
+  "fullName" : "test.TestLoginPage.testOpenLoginPage",
+  "historyId" : "35d37473aea567b4d0ca5321bf66e0ee",
   "time" : {
-    "start" : 1617765839616,
-    "stop" : 1617765839925,
-    "duration" : 309
+    "start" : 1617766892513,
+    "stop" : 1617766894191,
+    "duration" : 1678
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1617765833483,
-      "stop" : 1617765837663,
-      "duration" : 4180
+      "start" : 1617766888972,
+      "stop" : 1617766892423,
+      "duration" : 3451
     },
     "description" : "",
     "status" : "passed",
@@ -31,11 +31,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Click Submit Button",
+      "name" : "Open login page",
       "time" : {
-        "start" : 1617765839616,
-        "stop" : 1617765839729,
-        "duration" : 113
+        "start" : 1617766892530,
+        "stop" : 1617766894088,
+        "duration" : 1558
       },
       "status" : "passed",
       "steps" : [ ],
@@ -56,9 +56,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1617765839930,
-      "stop" : 1617765840003,
-      "duration" : 73
+      "start" : 1617766894603,
+      "stop" : 1617766894673,
+      "duration" : 70
     },
     "description" : "",
     "status" : "passed",
@@ -78,7 +78,7 @@
     "value" : "test.TestLoginPage"
   }, {
     "name" : "testMethod",
-    "value" : "testRequiredLogin"
+    "value" : "testOpenLoginPage"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -90,10 +90,10 @@
     "value" : "test.TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az245-297"
+    "value" : "fv-az272-922"
   }, {
     "name" : "thread",
-    "value" : "4108@fv-az245-297.main(1)"
+    "value" : "4287@fv-az272-922.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -102,7 +102,7 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Admin must input email and password"
+    "value" : "Admin can open login page"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -117,6 +117,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7fadbc6daebecc9e.json",
+  "source" : "76b2e7657e5ba72f.json",
   "parameterValues" : [ ]
 }
