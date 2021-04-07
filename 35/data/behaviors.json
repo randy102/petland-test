@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Admin can open login page",
+    "children" : [ {
+      "name" : "Open login page successfully",
+      "uid" : "7249b6af6b199a1d",
+      "parentUid" : "30a3e68d3da14e8272cddbc3557344c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617760196145,
+        "stop" : 1617760219908,
+        "duration" : 23763
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "30a3e68d3da14e8272cddbc3557344c3"
+  } ],
+  "name" : "behaviors"
+}

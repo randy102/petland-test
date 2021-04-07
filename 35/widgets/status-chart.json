@@ -1,0 +1,11 @@
+[ {
+  "uid" : "7249b6af6b199a1d",
+  "name" : "Open login page successfully",
+  "time" : {
+    "start" : 1617760196145,
+    "stop" : 1617760219908,
+    "duration" : 23763
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
