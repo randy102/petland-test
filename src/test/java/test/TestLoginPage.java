@@ -35,7 +35,7 @@ public class TestLoginPage extends BaseTest{
     public void testRequiredLogin(){
         page.submit();
         WebElement emailError =  r.byXpath("//div[contains(text(),\"'Email' is required!\")]");
-        WebElement passwordError =  r.byXpath("//div[contains(text(),\"'Passwordd' is required!\")]");
+        WebElement passwordError =  r.byXpath("//div[contains(text(),\"'Password' is required!\")]");
 
         assertThat(emailError.isDisplayed()).isTrue();
         assertThat(passwordError.isDisplayed()).isTrue();
