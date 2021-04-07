@@ -12,7 +12,7 @@ import utils.TestListener;
 import static com.google.common.truth.Truth.assertThat;
 
 @Listeners({TestListener.class})
-public class TestLoginPage {
+public class TestLoginPage implements BaseTest{
     private LoginPage page;
     private Relenium r;
 
