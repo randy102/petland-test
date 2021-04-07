@@ -1,0 +1,35 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "setup",
+    "uid" : "1d1ad7b1b117681f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1617759569734,
+      "stop" : 1617759569736,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Admin can open login page",
+    "children" : [ {
+      "name" : "Open login page successfully",
+      "uid" : "c3cec6d156336aaf",
+      "parentUid" : "30a3e68d3da14e8272cddbc3557344c3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1617759569864,
+        "stop" : 1617759569866,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "30a3e68d3da14e8272cddbc3557344c3"
+  } ],
+  "name" : "behaviors"
+}
