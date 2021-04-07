@@ -20,7 +20,7 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
       - name: Run tests with Maven
-        run: mvn -B -Durl=${{secrets.APP_URL}} clean test --file pom.xml
+        run: mvn -B -Durl=${{secrets.APP_URL}} -Denv=server clean test --file pom.xml
       - name: Allure report
         uses: afiore/action-allure-report@v0.1.0
       - name: Test marketplace action
