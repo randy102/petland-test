@@ -9,19 +9,21 @@ import utils.Relenium;
 
 import static com.google.common.truth.Truth.assertThat;
 
-public class TestLoginPage extends BaseTest{
+public class TestLoginPage {
     private LoginPage page;
+    private Relenium r;
 
     @BeforeClass
     public void setup(){
-        page = new LoginPage(getR());
+        r = new Relenium();
+        page = new LoginPage(r);
     }
 
     @Test(priority = 0, description = "Open login page successfully")
     @Story("Admin can open login page")
     public void testOpenLoginPage(){
         page.openLoginPage();
-        WebElement formTitle = getR().byCss(".title");
+        WebElement formTitle = r.byCss(".title");
         assertThat(formTitle.isDisplayed()).isTrue();
     }
 }
