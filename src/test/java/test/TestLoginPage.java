@@ -12,13 +12,12 @@ import utils.TestListener;
 import static com.google.common.truth.Truth.assertThat;
 
 @Listeners({TestListener.class})
-public class TestLoginPage implements BaseTest{
-    private LoginPage page;
-    private Relenium r;
+public class TestLoginPage extends BaseTest{
+    public LoginPage page;
 
     @BeforeClass
     public void setup(){
-        r = new Relenium();
+        super.setup();
         page = new LoginPage(r);
     }
 

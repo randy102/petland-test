@@ -1,12 +1,20 @@
 package test;
 
-import org.openqa.selenium.WebDriver;
+
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.Listeners;
 import utils.Relenium;
-import utils.TestListener;
 
 
-public interface BaseTest {
-    public Relenium r = null;
+
+public abstract class BaseTest {
+    public Relenium r;
+
+    public void setup(){
+        r = new Relenium();
+    }
+
+    @AfterClass
+    public void tearDown(){
+        r.quit();
+    }
 }
