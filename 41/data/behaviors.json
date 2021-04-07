@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Admin must input email and password",
+    "children" : [ {
+      "name" : "Email and password should required",
+      "uid" : "dc2c18f3b8d86bcf",
+      "parentUid" : "73636f30916865a7ec7283f098120592",
+      "status" : "broken",
+      "time" : {
+        "start" : 1617767390189,
+        "stop" : 1617767390365,
+        "duration" : 176
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "73636f30916865a7ec7283f098120592"
+  }, {
+    "name" : "Admin can open login page",
+    "children" : [ {
+      "name" : "Open login page successfully",
+      "uid" : "f45323b0c670efa",
+      "parentUid" : "30a3e68d3da14e8272cddbc3557344c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617767390492,
+        "stop" : 1617767391624,
+        "duration" : 1132
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "30a3e68d3da14e8272cddbc3557344c3"
+  } ],
+  "name" : "behaviors"
+}
