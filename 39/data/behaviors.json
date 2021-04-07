@@ -4,13 +4,13 @@
     "name" : "Admin can open login page",
     "children" : [ {
       "name" : "Open login page successfully",
-      "uid" : "d6d71bccf0bedc78",
+      "uid" : "e97951e58aad6ba6",
       "parentUid" : "30a3e68d3da14e8272cddbc3557344c3",
       "status" : "passed",
       "time" : {
-        "start" : 1617765047263,
-        "stop" : 1617765048268,
-        "duration" : 1005
+        "start" : 1617765837739,
+        "stop" : 1617765839502,
+        "duration" : 1763
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
     "name" : "Admin must input email and password",
     "children" : [ {
       "name" : "Email and password should required",
-      "uid" : "e163283e37406cae",
+      "uid" : "7fadbc6daebecc9e",
       "parentUid" : "73636f30916865a7ec7283f098120592",
       "status" : "passed",
       "time" : {
-        "start" : 1617765048344,
-        "stop" : 1617765048677,
-        "duration" : 333
+        "start" : 1617765839616,
+        "stop" : 1617765839925,
+        "duration" : 309
       },
       "flaky" : false,
       "newFailed" : false,

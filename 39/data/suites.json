@@ -8,26 +8,26 @@
         "name" : "test.TestLoginPage",
         "children" : [ {
           "name" : "Open login page successfully",
-          "uid" : "d6d71bccf0bedc78",
+          "uid" : "e97951e58aad6ba6",
           "parentUid" : "b19b22aec7f93a32fe9ad52a55452686",
           "status" : "passed",
           "time" : {
-            "start" : 1617765047263,
-            "stop" : 1617765048268,
-            "duration" : 1005
+            "start" : 1617765837739,
+            "stop" : 1617765839502,
+            "duration" : 1763
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Email and password should required",
-          "uid" : "e163283e37406cae",
+          "uid" : "7fadbc6daebecc9e",
           "parentUid" : "b19b22aec7f93a32fe9ad52a55452686",
           "status" : "passed",
           "time" : {
-            "start" : 1617765048344,
-            "stop" : 1617765048677,
-            "duration" : 333
+            "start" : 1617765839616,
+            "stop" : 1617765839925,
+            "duration" : 309
           },
           "flaky" : false,
           "newFailed" : false,
