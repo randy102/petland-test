@@ -6,7 +6,7 @@ import org.testng.annotations.Listeners;
 import utils.Relenium;
 import utils.TestListener;
 
-@Listeners({TestListener.class})
+
 public class BaseTest {
     public Relenium r;
 
@@ -18,7 +18,6 @@ public class BaseTest {
 
     public WebDriver getD(){return getR().d;}
 
-    @AfterClass
     public void tearDown(){
         r.quit();
     }
