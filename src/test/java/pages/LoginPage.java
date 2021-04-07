@@ -13,4 +13,8 @@ public class LoginPage extends BasePage{
         this.to("/login");
     }
 
+    @Step("Click Submit Button")
+    public void submit(){
+        r.click("button[type='button']");
+    }
 }

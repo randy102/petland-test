@@ -79,6 +79,8 @@ public class Relenium {
         return d.findElement(By.cssSelector(css));
     }
 
+    public WebElement byXpath(String xpath) { return d.findElement(By.xpath(xpath)); }
+
     public List<WebElement> listByCss(String css){
         return d.findElements(By.cssSelector(css));
     }
