@@ -4,13 +4,13 @@
     "name" : "test.TestLoginPage",
     "children" : [ {
       "name" : "testOpenLoginPage",
-      "uid" : "7249b6af6b199a1d",
+      "uid" : "3ca634d467faceaf",
       "parentUid" : "139c1c5ccf6d5978c1bf9f97585fb9eb",
       "status" : "passed",
       "time" : {
-        "start" : 1617760196145,
-        "stop" : 1617760219908,
-        "duration" : 23763
+        "start" : 1617762911648,
+        "stop" : 1617762913408,
+        "duration" : 1760
       },
       "flaky" : false,
       "newFailed" : false,

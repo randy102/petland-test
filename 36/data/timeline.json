@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az272-922",
+    "children" : [ {
+      "name" : "4201@fv-az272-922.main(1)",
+      "children" : [ {
+        "name" : "Open login page successfully",
+        "uid" : "3ca634d467faceaf",
+        "parentUid" : "fcec47e61362ee1034d6b9ac17021ceb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617762911648,
+          "stop" : 1617762913408,
+          "duration" : 1760
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcec47e61362ee1034d6b9ac17021ceb"
+    } ],
+    "uid" : "9760314dc7902cfd882c6eb9fbe5d257"
+  } ],
+  "name" : "timeline"
+}

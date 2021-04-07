@@ -1,12 +1,12 @@
 {
-  "uid" : "7249b6af6b199a1d",
+  "uid" : "3ca634d467faceaf",
   "name" : "Open login page successfully",
   "fullName" : "test.TestLoginPage.testOpenLoginPage",
   "historyId" : "35d37473aea567b4d0ca5321bf66e0ee",
   "time" : {
-    "start" : 1617760196145,
-    "stop" : 1617760219908,
-    "duration" : 23763
+    "start" : 1617762911648,
+    "stop" : 1617762913408,
+    "duration" : 1760
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1617760193205,
-      "stop" : 1617760196063,
-      "duration" : 2858
+      "start" : 1617762908773,
+      "stop" : 1617762911573,
+      "duration" : 2800
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
     "steps" : [ {
       "name" : "Open login page",
       "time" : {
-        "start" : 1617760196168,
-        "stop" : 1617760219828,
-        "duration" : 23660
+        "start" : 1617762911679,
+        "stop" : 1617762913320,
+        "duration" : 1641
       },
       "status" : "passed",
       "steps" : [ ],
@@ -53,7 +53,23 @@
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
-  "afterStages" : [ ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1617762913508,
+      "stop" : 1617762913576,
+      "duration" : 68
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
   "labels" : [ {
     "name" : "package",
     "value" : "test.TestLoginPage"
@@ -74,10 +90,10 @@
     "value" : "test.TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az278-847"
+    "value" : "fv-az272-922"
   }, {
     "name" : "thread",
-    "value" : "4149@fv-az278-847.main(1)"
+    "value" : "4201@fv-az272-922.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -101,6 +117,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7249b6af6b199a1d.json",
+  "source" : "3ca634d467faceaf.json",
   "parameterValues" : [ ]
 }

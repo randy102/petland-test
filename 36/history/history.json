@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7249b6af6b199a1d",
-      "reportUrl" : "https://randy102.github.io/petland-test/35//#testresult/7249b6af6b199a1d",
+      "uid" : "3ca634d467faceaf",
+      "reportUrl" : "https://randy102.github.io/petland-test/36//#testresult/3ca634d467faceaf",
       "status" : "passed",
       "time" : {
-        "start" : 1617760196145,
-        "stop" : 1617760219908,
-        "duration" : 23763
+        "start" : 1617762911648,
+        "stop" : 1617762913408,
+        "duration" : 1760
       }
     } ]
   }
