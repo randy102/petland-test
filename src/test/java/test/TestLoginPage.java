@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.LoginPage;
+import utils.Relenium;
 
 import static com.google.common.truth.Truth.assertThat;
 
