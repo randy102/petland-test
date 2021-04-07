@@ -22,7 +22,7 @@ public class TestLoginPage extends BaseTest{
         page = new LoginPage(r);
     }
 
-    @Test(priority = 2, description = "Open login page successfully")
+    @Test(priority = 0, description = "Open login page successfully")
     @Story("Admin can open login page")
     public void testOpenLoginPage(){
         page.openLoginPage();
