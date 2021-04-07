@@ -14,14 +14,14 @@ public class TestLoginPage extends BaseTest{
 
     @BeforeClass
     public void setup(){
-        page = new LoginPage(r);
+        page = new LoginPage(getR());
     }
 
     @Test(priority = 0, description = "Open login page successfully")
     @Story("Admin can open login page")
     public void testOpenLoginPage(){
         page.openLoginPage();
-        WebElement formTitle = r.byCss(".title");
+        WebElement formTitle = getR().byCss(".title");
         assertThat(formTitle.isDisplayed()).isTrue();
     }
 }

@@ -26,7 +26,7 @@ public class TestListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result){
         Object testClass = result.getInstance();
-        WebDriver driver = ((BaseTest) testClass).r.d;
+        WebDriver driver = ((BaseTest) testClass).getD();
 
         if (driver != null){
             saveScreenshotPNG(driver);

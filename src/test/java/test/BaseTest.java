@@ -1,5 +1,6 @@
 package test;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Listeners;
 import utils.Relenium;
@@ -12,6 +13,10 @@ public class BaseTest {
     public BaseTest(){
         r = new Relenium();
     }
+
+    public Relenium getR(){return r;}
+
+    public WebDriver getD(){return getR().d;}
 
     @AfterClass
     public void tearDown(){
