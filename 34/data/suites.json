@@ -8,26 +8,26 @@
         "name" : "test.TestLoginPage",
         "children" : [ {
           "name" : "setup",
-          "uid" : "1d1ad7b1b117681f",
+          "uid" : "f053209c5805af21",
           "parentUid" : "b19b22aec7f93a32fe9ad52a55452686",
           "status" : "broken",
           "time" : {
-            "start" : 1617759569734,
-            "stop" : 1617759569736,
-            "duration" : 2
+            "start" : 1617759978823,
+            "stop" : 1617759978828,
+            "duration" : 5
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Open login page successfully",
-          "uid" : "c3cec6d156336aaf",
+          "uid" : "f1479a80f6ba31d4",
           "parentUid" : "b19b22aec7f93a32fe9ad52a55452686",
           "status" : "skipped",
           "time" : {
-            "start" : 1617759569864,
-            "stop" : 1617759569866,
-            "duration" : 2
+            "start" : 1617759978953,
+            "stop" : 1617759978957,
+            "duration" : 4
           },
           "flaky" : false,
           "newFailed" : false,

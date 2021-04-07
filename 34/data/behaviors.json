@@ -2,13 +2,13 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "setup",
-    "uid" : "1d1ad7b1b117681f",
+    "uid" : "f053209c5805af21",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1617759569734,
-      "stop" : 1617759569736,
-      "duration" : 2
+      "start" : 1617759978823,
+      "stop" : 1617759978828,
+      "duration" : 5
     },
     "flaky" : false,
     "newFailed" : false,
@@ -17,13 +17,13 @@
     "name" : "Admin can open login page",
     "children" : [ {
       "name" : "Open login page successfully",
-      "uid" : "c3cec6d156336aaf",
+      "uid" : "f1479a80f6ba31d4",
       "parentUid" : "30a3e68d3da14e8272cddbc3557344c3",
       "status" : "skipped",
       "time" : {
-        "start" : 1617759569864,
-        "stop" : 1617759569866,
-        "duration" : 2
+        "start" : 1617759978953,
+        "stop" : 1617759978957,
+        "duration" : 4
       },
       "flaky" : false,
       "newFailed" : false,

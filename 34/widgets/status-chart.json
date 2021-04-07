@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f053209c5805af21",
+  "name" : "setup",
+  "time" : {
+    "start" : 1617759978823,
+    "stop" : 1617759978828,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f1479a80f6ba31d4",
+  "name" : "Open login page successfully",
+  "time" : {
+    "start" : 1617759978953,
+    "stop" : 1617759978957,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

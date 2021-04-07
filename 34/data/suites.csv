@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed Apr 07 01:46:18 GMT 2021","Wed Apr 07 01:46:18 GMT 2021","5","Surefire suite","Surefire test","test.TestLoginPage","test.TestLoginPage","setup","setup",""
+"skipped","Wed Apr 07 01:46:18 GMT 2021","Wed Apr 07 01:46:18 GMT 2021","4","Surefire suite","Surefire test","test.TestLoginPage","test.TestLoginPage","testOpenLoginPage","Open login page successfully",""
