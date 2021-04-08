@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should not exist {by text: Login}\nElement: '<div class=\"title\">Login</div>'\nScreenshot: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1617889712286.0.png\nPage source: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1617889712286.0.html\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "testLoginSuccessfully",
+        "uid" : "ddee250ef635072e",
+        "parentUid" : "02f5deddca9e3496a4d9ae3baeed010b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617889701146,
+          "stop" : 1617889712522,
+          "duration" : 11376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "02f5deddca9e3496a4d9ae3baeed010b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
