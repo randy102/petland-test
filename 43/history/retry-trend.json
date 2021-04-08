@@ -1,6 +1,6 @@
 [ {
-  "buildOrder" : 42,
-  "reportUrl" : "https://randy102.github.io/petland-test/42/",
+  "buildOrder" : 43,
+  "reportUrl" : "https://randy102.github.io/petland-test/43/",
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 2,

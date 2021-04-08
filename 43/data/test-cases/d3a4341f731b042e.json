@@ -1,12 +1,12 @@
 {
-  "uid" : "9338a9b53e53b361",
+  "uid" : "d3a4341f731b042e",
   "name" : "Email and password should required",
   "fullName" : "test.TestLoginPage.testRequiredLogin",
   "historyId" : "22d8d424df7d4f3ae1119a81983fc8dc",
   "time" : {
-    "start" : 1617767708814,
-    "stop" : 1617767709095,
-    "duration" : 281
+    "start" : 1617886501866,
+    "stop" : 1617886502281,
+    "duration" : 415
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,25 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1617767703982,
-      "stop" : 1617767707584,
-      "duration" : 3602
+      "start" : 1617886497296,
+      "stop" : 1617886497308,
+      "duration" : 12
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1617886497174,
+      "stop" : 1617886497277,
+      "duration" : 103
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +49,9 @@
     "steps" : [ {
       "name" : "Click Submit Button",
       "time" : {
-        "start" : 1617767708814,
-        "stop" : 1617767708936,
-        "duration" : 122
+        "start" : 1617886501867,
+        "stop" : 1617886502080,
+        "duration" : 213
       },
       "status" : "passed",
       "steps" : [ ],
@@ -56,9 +72,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1617767709097,
-      "stop" : 1617767709169,
-      "duration" : 72
+      "start" : 1617886502284,
+      "stop" : 1617886502357,
+      "duration" : 73
     },
     "description" : "",
     "status" : "passed",
@@ -90,10 +106,10 @@
     "value" : "test.TestLoginPage"
   }, {
     "name" : "host",
-    "value" : "fv-az196-541"
+    "value" : "fv-az132-838"
   }, {
     "name" : "thread",
-    "value" : "4135@fv-az196-541.main(1)"
+    "value" : "3788@fv-az132-838.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -117,6 +133,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9338a9b53e53b361.json",
+  "source" : "d3a4341f731b042e.json",
   "parameterValues" : [ ]
 }
