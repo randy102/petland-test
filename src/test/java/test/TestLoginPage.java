@@ -30,6 +30,7 @@ public class TestLoginPage {
     @Test(priority = 1, description = "Email and password should required")
     @Story("Admin must input email and password")
     public void testRequiredLogin(){
+        page.openLoginPage();
         page.submit();
         $(byText("'Email' is required!")).shouldBe(visible);
         $(byText("'Password' is required!")).shouldBe(visible);
