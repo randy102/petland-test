@@ -30,9 +30,4 @@ public class BaseTest {
         Configuration.baseUrl = System.getProperty("url");
         Configuration.timeout = 10000;
     }
-
-    @AfterMethod
-    public void tearDown(){
-        closeWindow();
-    }
 }

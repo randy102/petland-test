@@ -20,19 +20,28 @@ public class TestLoginPage {
         page = new LoginPage();
     }
 
-    @Test(description = "Open login page successfully")
+    @Test
     @Story("Admin can open login page")
     public void testOpenLoginPage(){
-        page.openLoginPage();
+        page.openPage();
         $(".title").shouldBe(visible);
     }
 
-    @Test(priority = 1, description = "Email and password should required")
+    @Test(priority = 1)
     @Story("Admin must input email and password")
     public void testRequiredLogin(){
-        page.openLoginPage();
+        page.openPage();
         page.submit();
         $(byText("'Email' is required!")).shouldBe(visible);
         $(byText("'Password' is required!")).shouldBe(visible);
+    }
+
+    @Test(priority = 2)
+    @Story("Admin can login")
+    public void testLoginSuccessfully(){
+        page.openPage();
+        page.input();
+        page.submit();
+        $(byText("Login")).should(exist);
     }
 }
