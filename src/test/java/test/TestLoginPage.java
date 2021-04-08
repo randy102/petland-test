@@ -42,6 +42,6 @@ public class TestLoginPage {
         page.openPage();
         page.input();
         page.submit();
-        $(byText("Login")).should(exist);
+        $(byText("Login")).shouldNot(exist);
     }
 }

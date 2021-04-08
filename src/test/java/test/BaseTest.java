@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.closeWindow;
 
 public class BaseTest {
     @BeforeTest
-    public void setup(){
+    public void setupTest(){
         String env = System.getProperty("env");
         Configuration.browserCapabilities = new DesiredCapabilities();
         ChromeOptions options = new ChromeOptions();

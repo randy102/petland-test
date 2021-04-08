@@ -19,6 +19,6 @@ public class LoginPage {
     @Step("Type email and password")
     public void input(){
         $("#email").setValue("welldey102@gmail.com");
-        $("#password").setValue("123456");
+        $("#password").setValue("1234567");
     }
 }
