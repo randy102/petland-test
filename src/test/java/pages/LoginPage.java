@@ -1,20 +1,18 @@
 package pages;
 
 import io.qameta.allure.Step;
-import utils.Relenium;
 
-public class LoginPage extends BasePage{
-    public LoginPage(Relenium r){
-        super(r);
-    }
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 
+public class LoginPage {
     @Step("Open login page")
     public void openLoginPage(){
-        this.to("/login");
+        open("/login");
     }
 
     @Step("Click Submit Button")
     public void submit(){
-        r.click("button[type='button']");
+        $("button[type='button']").click();
     }
 }

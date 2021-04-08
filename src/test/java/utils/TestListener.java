@@ -1,5 +1,6 @@
 package utils;
 
+import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -14,8 +15,8 @@ public class TestListener implements ITestListener {
     }
 
     @Attachment(value = "Page screenshot", type = "image/png")
-    public byte[] saveScreenshotPNG (WebDriver driver){
-        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    public byte[] saveScreenshotPNG (){
+        return Selenide.screenshot(OutputType.BYTES);
     }
 
     @Attachment(value="{0}", type="test/plain")
@@ -25,13 +26,7 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result){
-        Object testClass = result.getInstance();
-        WebDriver driver = ((BaseTest) testClass).r.d;
-
-        if (driver != null){
-            saveScreenshotPNG(driver);
-        }
-
+        saveScreenshotPNG();
         saveTextLog(getTestMethodName(result));
     }
 }
