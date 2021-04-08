@@ -1,43 +1,43 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "Surefire suite",
+    "name" : "Petland Admin",
     "children" : [ {
-      "name" : "Surefire test",
+      "name" : "Login Page",
       "children" : [ {
         "name" : "test.TestLoginPage",
         "children" : [ {
           "name" : "Open login page successfully",
-          "uid" : "75b4f4fb5f257679",
-          "parentUid" : "b19b22aec7f93a32fe9ad52a55452686",
+          "uid" : "e0eee1ae4f24355",
+          "parentUid" : "fe64aefed5bd9d95d8526a5f0a862801",
           "status" : "passed",
           "time" : {
-            "start" : 1617886497478,
-            "stop" : 1617886501741,
-            "duration" : 4263
+            "start" : 1617888649761,
+            "stop" : 1617888660833,
+            "duration" : 11072
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Email and password should required",
-          "uid" : "d3a4341f731b042e",
-          "parentUid" : "b19b22aec7f93a32fe9ad52a55452686",
+          "uid" : "cae562a985af0f47",
+          "parentUid" : "fe64aefed5bd9d95d8526a5f0a862801",
           "status" : "passed",
           "time" : {
-            "start" : 1617886501866,
-            "stop" : 1617886502281,
-            "duration" : 415
+            "start" : 1617888660992,
+            "stop" : 1617888661838,
+            "duration" : 846
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "b19b22aec7f93a32fe9ad52a55452686"
+        "uid" : "fe64aefed5bd9d95d8526a5f0a862801"
       } ],
-      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+      "uid" : "356b9fe8b60145b67f66c221c8682aa6"
     } ],
-    "uid" : "940a09faf31371a51747026c9d178f0a"
+    "uid" : "c9b88f7585d3855e9d6853f5e43f6162"
   } ],
   "name" : "suites"
 }
