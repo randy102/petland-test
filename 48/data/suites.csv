@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Apr 11 08:11:53 GMT 2021","Sun Apr 11 08:11:56 GMT 2021","3265","Petland Admin","Login Page","test.TestUserPage","test.TestUserPage","testCreateUser","testCreateUser",""
+"passed","Sun Apr 11 08:12:00 GMT 2021","Sun Apr 11 08:12:05 GMT 2021","4445","Petland Admin","Login Page","test.TestUserPage","test.TestUserPage","testUpdateUser","testUpdateUser",""
