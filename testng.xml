@@ -3,8 +3,9 @@
 <suite name="Petland Admin">
     <test name="Login Page">
         <classes>
-            <class name="test.BaseTest"/>
-            <class name="test.TestLoginPage"/>
+            <class name="test.SetupTest"/>
+<!--            <class name="test.TestLoginPage"/>-->
+            <class name="test.TestUserPage"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

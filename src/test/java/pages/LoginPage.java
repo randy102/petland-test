@@ -1,11 +1,19 @@
 package pages;
 
+import static com.codeborne.selenide.Condition.*;
+import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 
+import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class LoginPage {
+public class LoginPage extends BasePage{
+    public final SelenideElement loginTitle = $(byText("Login"));
+    public final SelenideElement emailRequiredError = $(byText("'Email' is required!"));
+    public final SelenideElement passwordRequiredError = $(byText("'Password' is required!"));
+
+
     @Step("Open login page")
     public void openPage(){
         open("/login");
@@ -17,8 +25,16 @@ public class LoginPage {
     }
 
     @Step("Type email and password")
-    public void input(){
+    public void inputAdmin(){
         $("#email").setValue("welldey102@gmail.com");
         $("#password").setValue("123456");
+    }
+
+    @Step("Login with Admin")
+    public void loginAdmin(){
+        openPage();
+        inputAdmin();
+        submit();
+        loginTitle.shouldBe(disappear);
     }
 }

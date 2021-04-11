@@ -1,6 +1,7 @@
 package test;
 
 import io.qameta.allure.Story;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -8,7 +9,6 @@ import pages.LoginPage;
 import utils.TestListener;
 
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 @Listeners({TestListener.class})
@@ -20,28 +20,26 @@ public class TestLoginPage {
         page = new LoginPage();
     }
 
-    @Test
-    @Story("Admin can open login page")
-    public void testOpenLoginPage(){
-        page.openPage();
-        $(".title").shouldBe(visible);
-    }
+    @AfterMethod
+    public void tearDown() { closeWindow(); }
+
 
     @Test(priority = 1)
-    @Story("Admin must input email and password")
+    @Story("Email and password should be required")
     public void testRequiredLogin(){
         page.openPage();
         page.submit();
-        $(byText("'Email' is required!")).shouldBe(visible);
-        $(byText("'Password' is required!")).shouldBe(visible);
+        page.emailRequiredError.shouldBe(visible);
+        page.passwordRequiredError.shouldBe(visible);
     }
 
     @Test(priority = 2)
     @Story("Admin can login")
     public void testLoginSuccessfully(){
         page.openPage();
-        page.input();
+        page.loginTitle.shouldBe(visible);
+        page.inputAdmin();
         page.submit();
-        $(byText("Login")).shouldNot(exist);
+        page.loginTitle.shouldNot(exist);
     }
 }
