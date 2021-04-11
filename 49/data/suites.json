@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Petland Admin",
+    "children" : [ {
+      "name" : "Login Page",
+      "children" : [ {
+        "name" : "test.TestUserPage",
+        "children" : [ {
+          "name" : "testCreateUser",
+          "uid" : "7417adc9df7c5519",
+          "parentUid" : "59e61209bf4f15af0e8085e271b88054",
+          "status" : "passed",
+          "time" : {
+            "start" : 1618131340828,
+            "stop" : 1618131343880,
+            "duration" : 3052
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testUpdateUser",
+          "uid" : "bdc22b067333ea73",
+          "parentUid" : "59e61209bf4f15af0e8085e271b88054",
+          "status" : "passed",
+          "time" : {
+            "start" : 1618131346376,
+            "stop" : 1618131350803,
+            "duration" : 4427
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testLockUser",
+          "uid" : "b23dce67454bb39c",
+          "parentUid" : "59e61209bf4f15af0e8085e271b88054",
+          "status" : "passed",
+          "time" : {
+            "start" : 1618131353362,
+            "stop" : 1618131356725,
+            "duration" : 3363
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testUnLockUser",
+          "uid" : "1c6052f9cddf0fd9",
+          "parentUid" : "59e61209bf4f15af0e8085e271b88054",
+          "status" : "passed",
+          "time" : {
+            "start" : 1618131359137,
+            "stop" : 1618131363140,
+            "duration" : 4003
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testDeleteUser",
+          "uid" : "b4fc3fa615fa1e52",
+          "parentUid" : "59e61209bf4f15af0e8085e271b88054",
+          "status" : "passed",
+          "time" : {
+            "start" : 1618131366233,
+            "stop" : 1618131369883,
+            "duration" : 3650
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "59e61209bf4f15af0e8085e271b88054"
+      } ],
+      "uid" : "356b9fe8b60145b67f66c221c8682aa6"
+    } ],
+    "uid" : "c9b88f7585d3855e9d6853f5e43f6162"
+  } ],
+  "name" : "suites"
+}

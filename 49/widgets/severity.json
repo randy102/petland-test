@@ -1,0 +1,51 @@
+[ {
+  "uid" : "bdc22b067333ea73",
+  "name" : "testUpdateUser",
+  "time" : {
+    "start" : 1618131346376,
+    "stop" : 1618131350803,
+    "duration" : 4427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c6052f9cddf0fd9",
+  "name" : "testUnLockUser",
+  "time" : {
+    "start" : 1618131359137,
+    "stop" : 1618131363140,
+    "duration" : 4003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b23dce67454bb39c",
+  "name" : "testLockUser",
+  "time" : {
+    "start" : 1618131353362,
+    "stop" : 1618131356725,
+    "duration" : 3363
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4fc3fa615fa1e52",
+  "name" : "testDeleteUser",
+  "time" : {
+    "start" : 1618131366233,
+    "stop" : 1618131369883,
+    "duration" : 3650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7417adc9df7c5519",
+  "name" : "testCreateUser",
+  "time" : {
+    "start" : 1618131340828,
+    "stop" : 1618131343880,
+    "duration" : 3052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
