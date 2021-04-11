@@ -7,8 +7,11 @@ import static com.codeborne.selenide.Selenide.$;
 
 public interface BaseElement {
     SelenideElement editButton = $(byXpath("//button[./span[text() = 'Edit']]"));
+    SelenideElement deleteButton = $(byXpath("//button[./span[text() = 'Delete']]"));
+
     SelenideElement createSubmitButton = $(byXpath("//button[./span[text() = 'Create']]"));
     SelenideElement createTab = $("#rc-tabs-0-tab-add");
     SelenideElement drawerPopup = $(".ant-drawer-wrapper-body");
     SelenideElement updateSubmitButton = $(byXpath("//button[./span[text() = 'Save']]"));
+    SelenideElement modalOkButton = $(byXpath("//button[./span[text() = 'OK']]"));
 }

@@ -15,4 +15,19 @@ public abstract class BasePage implements BaseElement {
     public void submitUpdate() {
         updateSubmitButton.click();
     }
+
+    @Step("Confirm popup")
+    public void confirmModal() {
+        modalOkButton.click();
+    }
+
+    @Step("Click update button")
+    public void clickUpdateButton() {
+        editButton.click();
+    }
+
+    @Step("Click delete button")
+    public void clickDeleteButton(){
+        deleteButton.click();
+    };
 }

@@ -5,8 +5,7 @@ import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 public class LoginPage extends BasePage{
     public final SelenideElement loginTitle = $(byText("Login"));
@@ -32,9 +31,17 @@ public class LoginPage extends BasePage{
 
     @Step("Login with Admin")
     public void loginAdmin(){
-        openPage();
-        inputAdmin();
-        submit();
-        loginTitle.shouldBe(disappear);
+        if (System.getProperty("page_token") == null){
+            openPage();
+            inputAdmin();
+            submit();
+            loginTitle.shouldBe(disappear);
+            String token = localStorage().getItem("token");
+            System.setProperty("page_token", token);
+        } else {
+            open("/");
+            localStorage().setItem("token", System.getProperty("page_token"));
+            openPage();
+        }
     }
 }

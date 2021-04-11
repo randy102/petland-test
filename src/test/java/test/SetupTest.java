@@ -24,6 +24,5 @@ public class SetupTest {
         Configuration.browserCapabilities.setCapability(ChromeOptions.CAPABILITY, options);
         Configuration.baseUrl = System.getProperty("url");
         Configuration.timeout = 10000;
-        System.out.println("Setup Before Class");
     }
 }

@@ -52,14 +52,13 @@ public class UserPage extends BasePage implements UserElement {
         userLine(created).find(".ant-table-selection-column>label").click();
     }
 
-    @Step("Click update button")
-    public void clickUpdateButton() {
-        editButton.click();
-
-    }
-
     @Step("Update user's role")
     public void updateUserRole(String role) {
         selectByText(roleInput, role);
+    }
+
+    @Step("Click toggle lock button")
+    public void clickToggleLockButton() {
+        toggleLockButton.click();
     }
 }

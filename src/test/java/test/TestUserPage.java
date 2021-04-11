@@ -1,14 +1,12 @@
 package test;
 
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selenide.*;
 
 import dto.UserDTO;
 import io.qameta.allure.Story;
 import org.testng.annotations.*;
 import pages.UserPage;
 
-import static com.codeborne.selenide.Selenide.closeWindow;
 import static mock.UserMock.basic;
 import static utils.Antd.selectedItem;
 
@@ -35,8 +33,6 @@ public class TestUserPage extends BaseTest<UserPage>{
     @Test(priority = 2)
     @Story("Admin can update user's role")
     public void testUpdateUser(){
-
-
         page.checkLine(created);
         page.clickUpdateButton();
         page.drawerPopup.shouldBe(visible);
@@ -52,5 +48,32 @@ public class TestUserPage extends BaseTest<UserPage>{
 
         page.userGrid.shouldBe(visible);
         page.userLine(created).shouldHave(text(updated.role));
+    }
+
+    @Test(priority = 3)
+    @Story("Admin can lock user")
+    public void testLockUser(){
+        page.checkLine(created);
+        page.clickToggleLockButton();
+        page.confirmModal();
+        page.userLine(created).shouldHave(text("Locked"));
+    }
+
+    @Test(priority = 4)
+    @Story("Admin can unlock user")
+    public void testUnLockUser(){
+        page.checkLine(created);
+        page.clickToggleLockButton();
+        page.confirmModal();
+        page.userLine(created).shouldHave(text("Active"));
+    }
+
+    @Test(priority = 5)
+    @Story("Admin can delete user")
+    public void testDeleteUser(){
+        page.checkLine(created);
+        page.clickDeleteButton();
+        page.confirmModal();
+        page.userLine(created).shouldNot(exist);
     }
 }
