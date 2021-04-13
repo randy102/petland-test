@@ -12,6 +12,7 @@ public abstract class BaseTest<Page extends BasePage> {
 
     @BeforeMethod
     public void openUserPage(){
+        System.out.println(page);
         page.openPage();
     }
 

@@ -3,8 +3,16 @@ package pages;
 import element.BaseElement;
 import io.qameta.allure.Step;
 
+import static com.codeborne.selenide.Condition.visible;
+
 public abstract class BasePage implements BaseElement {
     public abstract void openPage();
+
+    @Step("Open create tab")
+    public void openCreateTab() {
+        createTab.click();
+        createTab.shouldBe(visible);
+    }
 
     @Step("Submit create user")
     public void submitCreate() {

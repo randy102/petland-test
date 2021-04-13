@@ -11,25 +11,15 @@ import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.*;
 import static utils.Antd.selectByText;
 
-;
-
 public class UserPage extends BasePage implements UserElement {
-    LoginPage loginPage;
-
-    public UserPage(){
-        loginPage = new LoginPage();
-    }
+    final LoginPage loginPage = new LoginPage();;
 
     @Step("Open user page")
     public void openPage() {
+        System.out.println(loginPage);
         loginPage.loginAdmin();
         open("/admin/user");
         userGrid.shouldBe(visible);
-    }
-
-    @Step("Open create user form")
-    public void openCreateForm() {
-        createTab.click();
     }
 
     @Step("Input create user form")

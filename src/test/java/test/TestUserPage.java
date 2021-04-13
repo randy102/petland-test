@@ -22,7 +22,7 @@ public class TestUserPage extends BaseTest<UserPage>{
     @Test(priority = 1)
     @Story("Admin can create user")
     public void testCreateUser(){
-        page.openCreateForm();
+        page.openCreateTab();
         page.createForm.shouldBe(visible);
         created = page.inputNewUser("USER");
         page.submitCreate();
