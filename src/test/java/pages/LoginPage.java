@@ -6,6 +6,7 @@ import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
+import static element.UserElement.userGrid;
 
 public class LoginPage extends BasePage{
     public final SelenideElement loginTitle = $(byText("Login"));
@@ -35,8 +36,9 @@ public class LoginPage extends BasePage{
             openPage();
             inputAdmin();
             submit();
-            loginTitle.shouldBe(disappear);
+            userGrid.shouldBe(disappear);
             String token = localStorage().getItem("token");
+            assert token != null;
             System.setProperty("page_token", token);
         } else {
             open("/");
