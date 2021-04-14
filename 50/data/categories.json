@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {by text: 'Email' is required!}\nExpected: visible\nScreenshot: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1618372476029.0.png\nPage source: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1618372476029.0.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "testRequiredLogin",
+        "uid" : "10b9953035cc9ea7",
+        "parentUid" : "c643359e34ec25802a8dc76409361f31",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618372457734,
+          "stop" : 1618372476340,
+          "duration" : 18606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c643359e34ec25802a8dc76409361f31"
+    }, {
+      "name" : "Element not found {by text: Login}\nExpected: visible\nScreenshot: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1618372488104.1.png\nPage source: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1618372488104.1.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "testLoginSuccessfully",
+        "uid" : "e66dafab0ee00c68",
+        "parentUid" : "f434d587d4b379cac0a90cde37ff077a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618372476585,
+          "stop" : 1618372488342,
+          "duration" : 11757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f434d587d4b379cac0a90cde37ff077a"
+    }, {
+      "name" : "Element should not exist {By.xpath: //tr[./td[text()='291c5770-8bae-4bcf-ba0b-06cc7b68f9c7@gmail.com']]}\nElement: '<tr class=\"ant-table-row ant-table-row-level-0 ant-table-row-selected\" data-row-key=\"01cafbb4-c6b8-4e5a-8d87-889888fd83f2\" draggable=\"true\">291c5770-8bae-4bcf-ba0b-06cc7b68f9c7@gmail.com 0388053333 55c0674c-7f0e-441f-9864-f7831191ac53 MOD Hoạt động</tr>'\nScreenshot: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1618372528436.2.png\nPage source: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1618372528436.2.html\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "testDeleteUser",
+        "uid" : "2fa45dd5224456dc",
+        "parentUid" : "3f1770d1057985b92522a621659ab875",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618372516915,
+          "stop" : 1618372528729,
+          "duration" : 11814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f1770d1057985b92522a621659ab875"
+    }, {
+      "name" : "Element should not exist {By.xpath: //tr[./td[text()='d0eed3b7-d7ed-4600-8c41-74a2890c0f0b']]}\nElement: '<tr class=\"ant-table-row ant-table-row-level-0 ant-table-row-selected\" data-row-key=\"7c65b4f8-6746-4c66-b8c6-516185d596f5\" draggable=\"true\">d0eed3b7-d7ed-4600-8c41-74a2890c0f0b</tr>'\nScreenshot: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1618372553130.3.png\nPage source: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1618372553130.3.html\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "testDeleteCategory",
+        "uid" : "fc6334482f88e6bd",
+        "parentUid" : "10e152674122f4ff5b95b01a1664f37c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618372541567,
+          "stop" : 1618372553382,
+          "duration" : 11815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10e152674122f4ff5b95b01a1664f37c"
+    }, {
+      "name" : "Element should not exist {By.xpath: //tr[./td[text()='8a4d7cd3-6104-4fed-b132-2694c414ddfa']]}\nElement: '<tr class=\"ant-table-row ant-table-row-level-0 ant-table-row-selected\" data-row-key=\"a67095c9-2b37-4b36-8d1b-ec564520d534\" draggable=\"true\">8a4d7cd3-6104-4fed-b132-2694c414ddfa 04d2e893-1fac-4e51-b9b7-e0f85e7d0cda</tr>'\nScreenshot: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1618372583763.4.png\nPage source: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1618372583763.4.html\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "testDeleteCategory",
+        "uid" : "533a28ce6b7f7a76",
+        "parentUid" : "1f1e40aca6e2f371534d8781f31220c1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618372572191,
+          "stop" : 1618372584017,
+          "duration" : 11826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f1e40aca6e2f371534d8781f31220c1"
+    }, {
+      "name" : "Element should not exist {By.xpath: //tr[./td[text()='04d2e893-1fac-4e51-b9b7-e0f85e7d0cda']]}\nElement: '<tr class=\"ant-table-row ant-table-row-level-0 ant-table-row-selected\" data-row-key=\"2a793cfc-16b9-438a-adb5-cc7db324b3b9\" draggable=\"true\">04d2e893-1fac-4e51-b9b7-e0f85e7d0cda</tr>'\nScreenshot: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1618372598084.5.png\nPage source: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1618372598084.5.html\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "cleanUp",
+        "uid" : "bca28456fb017dbb",
+        "parentUid" : "bd400a2ce1a75ce850d9ad2630d3cf49",
+        "status" : "failed",
+        "time" : {
+          "start" : 1618372598273,
+          "stop" : 1618372598274,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd400a2ce1a75ce850d9ad2630d3cf49"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
