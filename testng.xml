@@ -4,9 +4,9 @@
     <test name="Login Page">
         <classes>
             <class name="test.SetupTest"/>
-<!--            <class name="test.TestLoginPage"/>-->
+            <class name="test.TestLoginPage"/>
             <class name="test.TestUserPage"/>
-<!--            <class name="test.TestCategoryPage"/>-->
+            <class name="test.TestCategoryPage"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

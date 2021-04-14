@@ -26,16 +26,14 @@ public class TestUserPage extends BaseTest<UserPage>{
         page.createForm.shouldBe(visible);
         created = page.inputNewUser("USER");
         page.submitCreate();
-        page.userGrid.shouldBe(visible);
-        page.userLine(created).shouldBe(visible);
+        page.gridLine(created.email).shouldBe(visible);
     }
 
     @Test(priority = 2)
     @Story("Admin can update user's role")
     public void testUpdateUser(){
-        page.checkLine(created);
+        page.checkLine(created.email);
         page.clickUpdateButton();
-        page.drawerPopup.shouldBe(visible);
 
         page.emailInput.shouldHave(value(created.email));
         page.nameInput.shouldHave(value(created.name));
@@ -47,33 +45,33 @@ public class TestUserPage extends BaseTest<UserPage>{
         page.submitUpdate();
 
         page.userGrid.shouldBe(visible);
-        page.userLine(created).shouldHave(text(updated.role));
+        page.gridLine(created.email).shouldHave(text(updated.role));
     }
 
     @Test(priority = 3)
     @Story("Admin can lock user")
     public void testLockUser(){
-        page.checkLine(created);
+        page.checkLine(created.email);
         page.clickToggleLockButton();
         page.confirmModal();
-        page.userLine(created).shouldHave(text("Bị khóa"));
+        page.gridLine(created.email).shouldHave(text("Bị khóa"));
     }
 
     @Test(priority = 4)
     @Story("Admin can unlock user")
     public void testUnLockUser(){
-        page.checkLine(created);
+        page.checkLine(created.email);
         page.clickToggleLockButton();
         page.confirmModal();
-        page.userLine(created).shouldHave(text("Hoạt động"));
+        page.gridLine(created.email).shouldHave(text("Hoạt động"));
     }
 
     @Test(priority = 5)
     @Story("Admin can delete user")
     public void testDeleteUser(){
-        page.checkLine(created);
+        page.checkLine(created.email);
         page.clickDeleteButton();
         page.confirmModal();
-        page.userLine(created).shouldNot(exist);
+        page.gridLine(created.email).shouldNot(exist);
     }
 }

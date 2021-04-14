@@ -1,13 +1,11 @@
 package pages;
 
-import com.codeborne.selenide.SelenideElement;
 import dto.UserDTO;
 import element.UserElement;
 import io.qameta.allure.Step;
 import mock.UserMock;
 
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.*;
 import static utils.Antd.selectByText;
 
@@ -32,15 +30,7 @@ public class UserPage extends BasePage implements UserElement {
         return user;
     }
 
-    public SelenideElement userLine(UserDTO user) {
-        return $(byXpath("//tr[./td[text()='"+user.email+"']]"));
-    }
 
-
-    @Step("Check user line")
-    public void checkLine(UserDTO created) {
-        userLine(created).find(".ant-table-selection-column>label").click();
-    }
 
     @Step("Update user's role")
     public void updateUserRole(String role) {

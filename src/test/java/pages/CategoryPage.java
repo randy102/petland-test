@@ -4,6 +4,7 @@ package pages;
 import dto.CategoryDTO;
 import element.CategoryElement;
 import io.qameta.allure.Step;
+import org.openqa.selenium.Keys;
 
 import static com.codeborne.selenide.Selenide.open;
 
@@ -18,7 +19,7 @@ public class CategoryPage extends BasePage implements CategoryElement {
     }
 
     @Step("Input new category")
-    public void inputNewCategory(CategoryDTO created) {
-        nameInput.sendKeys(created.name);
+    public void inputCategoryForm(CategoryDTO created) {
+        clearAndSendInput(nameInput, created.name);
     }
 }
