@@ -24,7 +24,7 @@ public interface BaseElement {
     }
 
     static SelenideElement gridWhichHasColumns(String[] columns){
-        String joinedColumns = Arrays.stream(columns).map(title -> ".//th[text()[contains(.,'"+title+"')]]").collect(Collectors.joining(" and "));
+        String joinedColumns = Arrays.stream(columns).map(title -> ".//th//span[text()[contains(.,'"+title+"')]]").collect(Collectors.joining(" and "));
         return $(byXpath("//table["+joinedColumns+"]"));
     }
 }

@@ -7,10 +7,7 @@ import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;
 
 public interface CategoryElement extends BaseElement{
-//    SelenideElement createForm = BaseElement.formWhichHasInputs(new String[]{"name"});
-    SelenideElement createForm = $("");
+    SelenideElement createForm = BaseElement.formWhichHasInputs(new String[]{"name"});
     SelenideElement nameInput = $("#name");
-
-//    SelenideElement categoryGrid = BaseElement.gridWhichHasColumns(new String[]{"Name"});
-    SelenideElement categoryGrid = $("");
+    SelenideElement categoryGrid = BaseElement.gridWhichHasColumns(new String[]{"Tên"});
 }
