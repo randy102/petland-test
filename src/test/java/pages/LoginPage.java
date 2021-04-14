@@ -36,7 +36,7 @@ public class LoginPage extends BasePage{
             openPage();
             inputAdmin();
             submit();
-            userGrid.shouldBe(disappear);
+            userGrid.shouldBe(visible);
             String token = localStorage().getItem("token");
             assert token != null;
             System.setProperty("page_token", token);

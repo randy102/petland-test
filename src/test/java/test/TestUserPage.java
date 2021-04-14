@@ -56,7 +56,7 @@ public class TestUserPage extends BaseTest<UserPage>{
         page.checkLine(created);
         page.clickToggleLockButton();
         page.confirmModal();
-        page.userLine(created).shouldHave(text("Locked"));
+        page.userLine(created).shouldHave(text("Bị khóa"));
     }
 
     @Test(priority = 4)
@@ -65,7 +65,7 @@ public class TestUserPage extends BaseTest<UserPage>{
         page.checkLine(created);
         page.clickToggleLockButton();
         page.confirmModal();
-        page.userLine(created).shouldHave(text("Active"));
+        page.userLine(created).shouldHave(text("Hoạt động"));
     }
 
     @Test(priority = 5)

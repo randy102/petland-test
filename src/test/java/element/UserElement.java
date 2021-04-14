@@ -16,5 +16,5 @@ public interface UserElement extends BaseElement {
      SelenideElement roleInput = $("#role");
 
      SelenideElement createForm = $("form").find("input#email");
-     SelenideElement toggleLockButton = $(byXpath("//button[./span[text() = 'Toggle Lock']]"));
+     SelenideElement toggleLockButton = $(byXpath("//button[./span[text() = 'Khóa/Mở khóa']]"));
 }
