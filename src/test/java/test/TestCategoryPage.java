@@ -10,7 +10,7 @@ import pages.CategoryPage;
 import static com.codeborne.selenide.Condition.*;
 
 public class TestCategoryPage extends BaseTest<CategoryPage> {
-    final CategoryDTO created = CategoryMock.basic();
+    CategoryDTO created;
     final CategoryDTO updated = CategoryMock.basic();
 
     @BeforeTest
@@ -21,11 +21,7 @@ public class TestCategoryPage extends BaseTest<CategoryPage> {
     @Test
     @Story("Admin can add category")
     public void testAddCategory(){
-        page.openCreateTab();
-        page.categoryForm.shouldBe(visible);
-        page.inputCategoryForm(created);
-        page.submitCreate();
-        page.gridLine(created.name).shouldBe(visible);
+        created = page.createCategory();
     }
 
     @Test(priority = 1)
@@ -46,9 +42,6 @@ public class TestCategoryPage extends BaseTest<CategoryPage> {
     @Test(priority = 2)
     @Story("Admin can delete category")
     public void testDeleteCategory(){
-        page.checkLine(updated.name);
-        page.clickDeleteButton();
-        page.confirmModal();
-        page.gridLine(updated.name).shouldNot(exist);
+        page.deleteCategory(updated);
     }
 }
