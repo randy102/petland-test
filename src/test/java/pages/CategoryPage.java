@@ -26,16 +26,6 @@ public class CategoryPage extends BasePage implements CategoryElement {
         clearAndSendInput(nameInput, created.name);
     }
 
-    @Step("Create category")
-    public CategoryDTO createCategory(){
-        CategoryDTO category = CategoryMock.basic();
-        openCreateTab();
-        categoryForm.shouldBe(visible);
-        inputCategoryForm(category);
-        submitCreate();
-        gridLine(category.name).shouldBe(visible);
-        return category;
-    }
 
     @Step("Delete category")
     public void deleteCategory(CategoryDTO category){

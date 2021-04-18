@@ -1,6 +1,7 @@
 package test;
 
 import com.codeborne.selenide.Configuration;
+import com.google.gson.stream.JsonReader;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.BeforeTest;

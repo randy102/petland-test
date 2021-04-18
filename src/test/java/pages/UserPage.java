@@ -30,8 +30,6 @@ public class UserPage extends BasePage implements UserElement {
         return user;
     }
 
-
-
     @Step("Update user's role")
     public void updateUserRole(String role) {
         selectByText(roleInput, role);

@@ -21,7 +21,12 @@ public class TestCategoryPage extends BaseTest<CategoryPage> {
     @Test
     @Story("Admin can add category")
     public void testAddCategory(){
-        created = page.createCategory();
+        created = CategoryMock.basic();
+        page.openCreateTab();
+        page.categoryForm.shouldBe(visible);
+        page.inputCategoryForm(created);
+        page.submitCreate();
+        page.gridLine(created.name).shouldBe(visible);
     }
 
     @Test(priority = 1)
@@ -42,6 +47,9 @@ public class TestCategoryPage extends BaseTest<CategoryPage> {
     @Test(priority = 2)
     @Story("Admin can delete category")
     public void testDeleteCategory(){
-        page.deleteCategory(updated);
+        page.checkLine(updated.name);
+        page.clickDeleteButton();
+        page.confirmModal();
+        page.gridLine(updated.name).shouldNot(exist);
     }
 }

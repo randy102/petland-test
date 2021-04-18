@@ -1,8 +1,13 @@
 package test;
 
+import api.CategoryApi;
+import api.Request;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 import dto.CategoryDTO;
 import dto.SubCategoryDTO;
 import io.qameta.allure.Story;
+import mock.CategoryMock;
 import mock.SubCategoryMock;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -12,13 +17,15 @@ import pages.BasePage;
 import pages.CategoryPage;
 import pages.SubCategoryPage;
 
+import java.io.IOException;
+
 import static com.codeborne.selenide.Condition.*;
 import static utils.Antd.selectedItem;
 
 public class TestSubCategoryPage extends BaseTest<SubCategoryPage> {
     SubCategoryDTO created;
     SubCategoryDTO updated;
-    final CategoryPage categoryPage = new CategoryPage();
+    CategoryDTO category;
 
     @BeforeClass
     public void setup() {
@@ -26,15 +33,25 @@ public class TestSubCategoryPage extends BaseTest<SubCategoryPage> {
     }
 
     @AfterClass
-    public void cleanUp(){
-        categoryPage.openPage();
-        categoryPage.deleteCategory(created.category);
+    public void cleanUp() throws IOException {
+        CategoryApi.delete(category);
     }
 
     @Test
     @Story("Admin can add subcategory")
-    public void testAddSubCategory(){
-        created = page.createSubCategory();
+    public void testAddSubCategory() throws IOException {
+        category = CategoryMock.basic();
+        category.id = CategoryApi.create(category).get("_id").getAsString();
+        created = SubCategoryMock.basic(category);
+
+        page.openCreateTab();
+
+        page.subCategoryForm.shouldBe(visible);
+        page.inputSubCategoryForm(created);
+        page.submitCreate();
+
+        page.gridLine(category.name).shouldBe(visible);
+        page.gridLine(created.category.name).shouldBe(visible);
     }
 
     @Test(priority = 1)
@@ -44,7 +61,6 @@ public class TestSubCategoryPage extends BaseTest<SubCategoryPage> {
         page.clickUpdateButton();
 
         page.nameInput.shouldHave(value(created.name));
-        // selectedItem(page.categoryInput).shouldHave(text(created.category.name));
 
         updated = SubCategoryMock.basic(created.category);
         BasePage.clearAndSendInput(page.nameInput, updated.name);
