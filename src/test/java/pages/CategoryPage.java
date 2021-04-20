@@ -19,6 +19,7 @@ public class CategoryPage extends BasePage implements CategoryElement {
     public void openPage() {
         loginPage.loginAdmin();
         open("/admin/category");
+        categoryGrid.shouldBe(visible);
     }
 
     @Step("Input new category")

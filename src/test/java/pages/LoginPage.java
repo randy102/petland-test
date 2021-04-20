@@ -9,9 +9,9 @@ import static com.codeborne.selenide.Selenide.*;
 import static element.UserElement.userGrid;
 
 public class LoginPage extends BasePage{
-    public final SelenideElement loginTitle = $(byText("Login"));
-    public final SelenideElement emailRequiredError = $(byText("'Email' is required!"));
-    public final SelenideElement passwordRequiredError = $(byText("'Password' is required!"));
+    public final SelenideElement loginTitle = $(byText("Đăng nhập"));
+    public final SelenideElement emailRequiredError = $(byText("Email không được để trống!"));
+    public final SelenideElement passwordRequiredError = $(byText("Mật khẩu không được để trống!"));
 
 
     @Step("Open login page")

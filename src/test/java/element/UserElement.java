@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public interface UserElement extends BaseElement {
 //     SelenideElement userGrid = $(".ant-table-container").find(byText("Email"));
-     SelenideElement userGrid = BaseElement.gridWhichHasColumns(new String[]{"Email","Điện thoại","Tên"});
+     SelenideElement userGrid = BaseElement.gridWhichHasColumns("Email","Điện thoại","Tên");
 
      SelenideElement emailInput = $("#email");
      SelenideElement passwordInput = $("#password");
@@ -16,6 +16,6 @@ public interface UserElement extends BaseElement {
      SelenideElement phoneInput = $("#phone");
      SelenideElement roleInput = $("#role");
 
-     SelenideElement createForm = BaseElement.formWhichHasInputs(new String[]{"email","password","name","phone"});
+     SelenideElement createForm = BaseElement.formWhichHasInputs("email","password","name","phone");
      SelenideElement toggleLockButton = $(byXpath("//button[./span[text() = 'Khóa/Mở khóa']]"));
 }

@@ -58,7 +58,7 @@ public class Request {
     }
 
 
-    public static JsonObject delete(String api, JsonObject params) throws IOException {
+    public static void delete(String api, JsonObject params) throws IOException {
         CloseableHttpClient httpclient = HttpClients.createDefault();
 
         HttpDeleteWithBody httpDelete = new HttpDeleteWithBody(URL+api);
@@ -67,7 +67,7 @@ public class Request {
         httpDelete.addHeader("Authorization", "Bearer " + TOKEN);
         HttpResponse response = httpclient.execute(httpDelete);
         InputStream inputStream = response.getEntity().getContent();
-        return JsonParser.parseReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8)).getAsJsonObject();
+        System.out.println(inputStream.toString());
     }
 
 

@@ -43,6 +43,11 @@ public abstract class BasePage implements BaseElement {
         deleteButton.click();
     }
 
+    @Step("Click refresh button")
+    public void clickRefreshButton(){
+        refreshButton.click();
+    }
+
     @Step("Get grid line")
     public SelenideElement gridLine(String key) {
         return $(byXpath("//tr[./td[text()='"+key+"']]"));
