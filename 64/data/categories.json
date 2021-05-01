@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {By.xpath: //tr[./td[text()='2ebc3157-254c-4db1-9586-e4ae5083644c']]}\nExpected: exist\nScreenshot: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1619870744936.1.png\nPage source: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1619870744936.1.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr[./td[text()='2ebc3157-254c-4db1-9586-e4ae5083644c']]\"}",
+      "children" : [ {
+        "name" : "testUpdateCategory",
+        "uid" : "86c7e064652d3b10",
+        "parentUid" : "a2972da2ef1d7fd11ba1c4cddefbccb6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619870734552,
+          "stop" : 1619870745104,
+          "duration" : 10552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2972da2ef1d7fd11ba1c4cddefbccb6"
+    }, {
+      "name" : "Element not found {By.xpath: //tr[./td[text()='5e432672-2e32-428b-8d03-6478a8458652']]}\nExpected: exist\nScreenshot: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1619870758197.3.png\nPage source: file:/home/runner/work/petland-test/petland-test/build/reports/tests/1619870758197.3.html\nTimeout: 10 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr[./td[text()='5e432672-2e32-428b-8d03-6478a8458652']]\"}",
+      "children" : [ {
+        "name" : "testDeleteCategory",
+        "uid" : "9223a02bc82c172c",
+        "parentUid" : "62a4a38b248b15923ec4c54394231a25",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619870747983,
+          "stop" : 1619870758341,
+          "duration" : 10358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62a4a38b248b15923ec4c54394231a25"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
