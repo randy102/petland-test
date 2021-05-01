@@ -27,7 +27,7 @@ public class TestCategoryPage extends BaseTest<CategoryPage> {
         page.categoryForm.shouldBe(visible);
         page.inputCategoryForm(created);
         page.submitCreate();
-        page.gridLine(created.name).shouldNotBe(visible);
+        page.gridLine(created.name).shouldBe(visible);
     }
 
     @Test(priority = 1)
