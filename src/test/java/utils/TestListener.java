@@ -26,4 +26,5 @@ public class TestListener implements ITestListener {
         saveScreenshotPNG();
         saveTextLog(getTestMethodName(result));
     }
+
 }

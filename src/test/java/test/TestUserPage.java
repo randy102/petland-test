@@ -45,7 +45,7 @@ public class TestUserPage extends BaseTest<UserPage>{
         page.submitUpdate();
 
         page.userGrid.shouldBe(visible);
-        page.gridLine(created.email).shouldHave(text(updated.role));
+        page.gridLine(created.email).shouldHave(text(created.role));
     }
 
     @Test(priority = 3)
