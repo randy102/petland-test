@@ -1,0 +1,330 @@
+{
+  "uid" : "e2c998fef85faf71",
+  "name" : "testDeclinePost",
+  "fullName" : "test.TestPostPage.testDeclinePost",
+  "historyId" : "d9160c091487ed2e7055695f6ae4195f",
+  "time" : {
+    "start" : 1619868870175,
+    "stop" : 1619868875862,
+    "duration" : 5687
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openPage",
+    "time" : {
+      "start" : 1619868868186,
+      "stop" : 1619868870173,
+      "duration" : 1987
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open post page",
+      "time" : {
+        "start" : 1619868868186,
+        "stop" : 1619868870173,
+        "duration" : 1987
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login with Admin",
+        "time" : {
+          "start" : 1619868868186,
+          "stop" : 1619868869720,
+          "duration" : 1534
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1619868869228,
+            "stop" : 1619868869720,
+            "duration" : 492
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1619868858237,
+      "stop" : 1619868858237,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click refresh button",
+      "time" : {
+        "start" : 1619868872626,
+        "stop" : 1619868872744,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check grid line",
+      "time" : {
+        "start" : 1619868872744,
+        "stop" : 1619868873616,
+        "duration" : 872
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get grid line",
+        "time" : {
+          "start" : 1619868872745,
+          "stop" : 1619868872745,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "fcdabb89-88b9-4395-be37-7d726db9e4e3"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "fcdabb89-88b9-4395-be37-7d726db9e4e3"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click decline button",
+      "time" : {
+        "start" : 1619868873617,
+        "stop" : 1619868873780,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Input decline reason",
+      "time" : {
+        "start" : 1619868873780,
+        "stop" : 1619868873960,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "reason",
+        "value" : "Test"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Confirm popup",
+      "time" : {
+        "start" : 1619868873960,
+        "stop" : 1619868874064,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get grid line",
+      "time" : {
+        "start" : 1619868874064,
+        "stop" : 1619868874064,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "fcdabb89-88b9-4395-be37-7d726db9e4e3"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1619868875863,
+      "stop" : 1619868875974,
+      "duration" : 111
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cleanUp",
+    "time" : {
+      "start" : 1619868875976,
+      "stop" : 1619868879133,
+      "duration" : 3157
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.TestPostPage"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestPostPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDeclinePost"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Petland Admin"
+  }, {
+    "name" : "suite",
+    "value" : "Post Page"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.TestPostPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az196-453"
+  }, {
+    "name" : "thread",
+    "value" : "2889@fv-az196-453.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Admin can decline post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c99ca68dbd6615e3",
+        "reportUrl" : "https://randy102.github.io/petland-test/60//#testresult/c99ca68dbd6615e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619866065786,
+          "stop" : 1619866071652,
+          "duration" : 5866
+        }
+      }, {
+        "uid" : "cc89ee3f17af0a44",
+        "reportUrl" : "https://randy102.github.io/petland-test/59//#testresult/cc89ee3f17af0a44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619865472828,
+          "stop" : 1619865479083,
+          "duration" : 6255
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e2c998fef85faf71.json",
+  "parameterValues" : [ ]
+}
