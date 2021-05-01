@@ -11,14 +11,14 @@
             <class name="test.TestLoginPage"/>
         </classes>
     </test>
-    <test name="User Page">
-        <classes>
-            <class name="test.TestUserPage"/>
-        </classes>
-    </test>
     <test name="Category Page">
         <classes>
             <class name="test.TestCategoryPage"/>
+        </classes>
+    </test>
+    <test name="User Page">
+        <classes>
+            <class name="test.TestUserPage"/>
         </classes>
     </test>
     <test name="Subcategory Page">
