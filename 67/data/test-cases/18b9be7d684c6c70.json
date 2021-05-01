@@ -1,0 +1,235 @@
+{
+  "uid" : "18b9be7d684c6c70",
+  "name" : "testLoginSuccessfully",
+  "fullName" : "test.TestLoginPage.testLoginSuccessfully",
+  "historyId" : "75caf2f707f744831e92a06a8c8ec231",
+  "time" : {
+    "start" : 1619873063963,
+    "stop" : 1619873066242,
+    "duration" : 2279
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1619873058626,
+      "stop" : 1619873058762,
+      "duration" : 136
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open login page",
+      "time" : {
+        "start" : 1619873063963,
+        "stop" : 1619873065099,
+        "duration" : 1136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Type email and password",
+      "time" : {
+        "start" : 1619873065139,
+        "stop" : 1619873065619,
+        "duration" : 480
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click Submit Button",
+      "time" : {
+        "start" : 1619873065619,
+        "stop" : 1619873065706,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1619873066244,
+      "stop" : 1619873066352,
+      "duration" : 108
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.TestLoginPage"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestLoginPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginSuccessfully"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Petland Admin"
+  }, {
+    "name" : "suite",
+    "value" : "Login Page"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.TestLoginPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az193-336"
+  }, {
+    "name" : "thread",
+    "value" : "3059@fv-az193-336.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Admin can login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "62e650f26fdb03ee",
+        "reportUrl" : "https://randy102.github.io/petland-test/66//#testresult/62e650f26fdb03ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619872336008,
+          "stop" : 1619872339311,
+          "duration" : 3303
+        }
+      }, {
+        "uid" : "ad03728c9ef929cf",
+        "reportUrl" : "https://randy102.github.io/petland-test/65//#testresult/ad03728c9ef929cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619871356223,
+          "stop" : 1619871358552,
+          "duration" : 2329
+        }
+      }, {
+        "uid" : "4d0dff79621f4bf8",
+        "reportUrl" : "https://randy102.github.io/petland-test/64//#testresult/4d0dff79621f4bf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619870724156,
+          "stop" : 1619870727388,
+          "duration" : 3232
+        }
+      }, {
+        "uid" : "c6743ac69978108f",
+        "reportUrl" : "https://randy102.github.io/petland-test/63//#testresult/c6743ac69978108f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619870259543,
+          "stop" : 1619870262725,
+          "duration" : 3182
+        }
+      }, {
+        "uid" : "9e20b3dbbb4ee711",
+        "reportUrl" : "https://randy102.github.io/petland-test/62//#testresult/9e20b3dbbb4ee711",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619869916013,
+          "stop" : 1619869919262,
+          "duration" : 3249
+        }
+      }, {
+        "uid" : "d232f2fb4727492e",
+        "reportUrl" : "https://randy102.github.io/petland-test/61//#testresult/d232f2fb4727492e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619868794464,
+          "stop" : 1619868796983,
+          "duration" : 2519
+        }
+      }, {
+        "uid" : "aad28e8655eee31b",
+        "reportUrl" : "https://randy102.github.io/petland-test/60//#testresult/aad28e8655eee31b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619865990208,
+          "stop" : 1619865992430,
+          "duration" : 2222
+        }
+      }, {
+        "uid" : "82bbb1cdc7ccae3a",
+        "reportUrl" : "https://randy102.github.io/petland-test/59//#testresult/82bbb1cdc7ccae3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619865381865,
+          "stop" : 1619865385150,
+          "duration" : 3285
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "18b9be7d684c6c70.json",
+  "parameterValues" : [ ]
+}

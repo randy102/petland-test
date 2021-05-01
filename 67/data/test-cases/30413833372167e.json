@@ -1,0 +1,386 @@
+{
+  "uid" : "30413833372167e",
+  "name" : "testAddCategory",
+  "fullName" : "test.TestCategoryPage.testAddCategory",
+  "historyId" : "bf5057789477a06f059aa97f3bb62a2b",
+  "time" : {
+    "start" : 1619873068810,
+    "stop" : 1619873071135,
+    "duration" : 2325
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "openPage",
+    "time" : {
+      "start" : 1619873066361,
+      "stop" : 1619873068806,
+      "duration" : 2445
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open category page",
+      "time" : {
+        "start" : 1619873066361,
+        "stop" : 1619873068806,
+        "duration" : 2445
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login with Admin",
+        "time" : {
+          "start" : 1619873066362,
+          "stop" : 1619873068363,
+          "duration" : 2001
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1619873066362,
+            "stop" : 1619873067482,
+            "duration" : 1120
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Type email and password",
+          "time" : {
+            "start" : 1619873067482,
+            "stop" : 1619873067840,
+            "duration" : 358
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Click Submit Button",
+          "time" : {
+            "start" : 1619873067840,
+            "stop" : 1619873067926,
+            "duration" : 86
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1619873066360,
+      "stop" : 1619873066360,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open create tab",
+      "time" : {
+        "start" : 1619873068810,
+        "stop" : 1619873068976,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Input new category",
+      "time" : {
+        "start" : 1619873069137,
+        "stop" : 1619873069664,
+        "duration" : 527
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clear and send keys",
+        "time" : {
+          "start" : 1619873069254,
+          "stop" : 1619873069663,
+          "duration" : 409
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Clear input",
+          "time" : {
+            "start" : 1619873069374,
+            "stop" : 1619873069438,
+            "duration" : 64
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "input",
+            "value" : "<input autocomplete=\"on\" class=\"ant-input\" id=\"name\" type=\"text\" value></input>"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "input",
+          "value" : "<input autocomplete=\"on\" class=\"ant-input\" id=\"name\" type=\"text\" value></input>"
+        }, {
+          "name" : "keys",
+          "value" : "42af372e-5478-4237-bdb7-357d24730947"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "created",
+        "value" : "dto.CategoryDTO@5e2b512b"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Submit create",
+      "time" : {
+        "start" : 1619873069664,
+        "stop" : 1619873069790,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get grid line",
+      "time" : {
+        "start" : 1619873069790,
+        "stop" : 1619873069791,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "42af372e-5478-4237-bdb7-357d24730947"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1619873071138,
+      "stop" : 1619873071245,
+      "duration" : 107
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.TestCategoryPage"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestCategoryPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAddCategory"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Petland Admin"
+  }, {
+    "name" : "suite",
+    "value" : "Category Page"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.TestCategoryPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az193-336"
+  }, {
+    "name" : "thread",
+    "value" : "3059@fv-az193-336.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Admin can add category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "a7210fd31cc5be72",
+        "reportUrl" : "https://randy102.github.io/petland-test/66//#testresult/a7210fd31cc5be72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619872343123,
+          "stop" : 1619872343982,
+          "duration" : 859
+        }
+      }, {
+        "uid" : "9815e2c2c899feae",
+        "reportUrl" : "https://randy102.github.io/petland-test/65//#testresult/9815e2c2c899feae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619871361463,
+          "stop" : 1619871362387,
+          "duration" : 924
+        }
+      }, {
+        "uid" : "5d94e148a6bd36f3",
+        "reportUrl" : "https://randy102.github.io/petland-test/64//#testresult/5d94e148a6bd36f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619870730977,
+          "stop" : 1619870731813,
+          "duration" : 836
+        }
+      }, {
+        "uid" : "2dafdb46b2b33ebc",
+        "reportUrl" : "https://randy102.github.io/petland-test/63//#testresult/2dafdb46b2b33ebc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619870266458,
+          "stop" : 1619870267397,
+          "duration" : 939
+        }
+      }, {
+        "uid" : "fe67947a05c5edb4",
+        "reportUrl" : "https://randy102.github.io/petland-test/62//#testresult/fe67947a05c5edb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619869923043,
+          "stop" : 1619869925477,
+          "duration" : 2434
+        }
+      }, {
+        "uid" : "488d48b5b54b6dd9",
+        "reportUrl" : "https://randy102.github.io/petland-test/61//#testresult/488d48b5b54b6dd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619868800049,
+          "stop" : 1619868802459,
+          "duration" : 2410
+        }
+      }, {
+        "uid" : "b1cf7f0afc54cb95",
+        "reportUrl" : "https://randy102.github.io/petland-test/60//#testresult/b1cf7f0afc54cb95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619865995179,
+          "stop" : 1619865997276,
+          "duration" : 2097
+        }
+      }, {
+        "uid" : "e667560bbb81b21d",
+        "reportUrl" : "https://randy102.github.io/petland-test/59//#testresult/e667560bbb81b21d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619865388799,
+          "stop" : 1619865391265,
+          "duration" : 2466
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "30413833372167e.json",
+  "parameterValues" : [ ]
+}
