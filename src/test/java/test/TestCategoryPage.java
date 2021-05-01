@@ -3,6 +3,7 @@ package test;
 import dto.CategoryDTO;
 import io.qameta.allure.Story;
 import mock.CategoryMock;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.CategoryPage;
@@ -13,7 +14,7 @@ public class TestCategoryPage extends BaseTest<CategoryPage> {
     CategoryDTO created;
     final CategoryDTO updated = CategoryMock.basic();
 
-    @BeforeTest
+    @BeforeClass
     public void setup() {
         page = new CategoryPage();
     }

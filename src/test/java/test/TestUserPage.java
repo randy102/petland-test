@@ -14,7 +14,7 @@ public class TestUserPage extends BaseTest<UserPage>{
     public UserDTO created;
     public UserDTO updated;
 
-    @BeforeTest
+    @BeforeClass
     public void setup() {
         page = new UserPage();
     }
