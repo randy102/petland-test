@@ -2,7 +2,6 @@ package api;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import dto.CategoryDTO;
 import dto.SubCategoryDTO;
 
 import java.io.IOException;

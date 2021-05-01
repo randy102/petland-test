@@ -17,12 +17,12 @@ public abstract class BasePage implements BaseElement {
         createTab.click();
     }
 
-    @Step("Submit create user")
+    @Step("Submit create")
     public void submitCreate() {
         createSubmitButton.click();
     }
 
-    @Step("Submit update user")
+    @Step("Submit update")
     public void submitUpdate() {
         updateSubmitButton.click();
     }
