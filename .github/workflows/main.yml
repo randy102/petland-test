@@ -35,9 +35,6 @@ jobs:
       - name: Run tests with Maven
         run: mvn -B -Durl=${{secrets.APP_URL}} -Denv=server clean test --file pom.xml
 
-      - name: Allure report
-        uses: afiore/action-allure-report@v0.1.0
-
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
