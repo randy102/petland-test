@@ -1,0 +1,309 @@
+{
+  "uid" : "a957633d5a59465b",
+  "name" : "testUpdateCategory",
+  "fullName" : "test.TestCategoryPage.testUpdateCategory",
+  "historyId" : "d7c5c2f71dcbd4f0c105c96a274ccfa5",
+  "time" : {
+    "start" : 1619862212729,
+    "stop" : 1619862216058,
+    "duration" : 3329
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1619862205927,
+      "stop" : 1619862205928,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "openPage",
+    "time" : {
+      "start" : 1619862210774,
+      "stop" : 1619862212727,
+      "duration" : 1953
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open category page",
+      "time" : {
+        "start" : 1619862210775,
+        "stop" : 1619862212727,
+        "duration" : 1952
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login with Admin",
+        "time" : {
+          "start" : 1619862210775,
+          "stop" : 1619862212347,
+          "duration" : 1572
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1619862211886,
+            "stop" : 1619862212347,
+            "duration" : 461
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Check grid line",
+      "time" : {
+        "start" : 1619862212729,
+        "stop" : 1619862213590,
+        "duration" : 861
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get grid line",
+        "time" : {
+          "start" : 1619862212729,
+          "stop" : 1619862212729,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "key",
+          "value" : "8b729228-b010-4463-92b1-97e4e44213b1"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "8b729228-b010-4463-92b1-97e4e44213b1"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click update button",
+      "time" : {
+        "start" : 1619862213590,
+        "stop" : 1619862213802,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Input new category",
+      "time" : {
+        "start" : 1619862213872,
+        "stop" : 1619862214417,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Clear and send keys",
+        "time" : {
+          "start" : 1619862214025,
+          "stop" : 1619862214417,
+          "duration" : 392
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Clear input",
+          "time" : {
+            "start" : 1619862214137,
+            "stop" : 1619862214198,
+            "duration" : 61
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "input",
+            "value" : "<input autocomplete=\"on\" class=\"ant-input\" id=\"name\" type=\"text\" value=\"8b729228-b010-4463-92b1-97e4e44213b1\"></input>"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "input",
+          "value" : "<input autocomplete=\"on\" class=\"ant-input\" id=\"name\" type=\"text\" value=\"8b729228-b010-4463-92b1-97e4e44213b1\"></input>"
+        }, {
+          "name" : "keys",
+          "value" : "97e037d4-d918-41dc-ac55-bb786fa31e63"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "created",
+        "value" : "dto.CategoryDTO@73dd0f23"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Submit update",
+      "time" : {
+        "start" : 1619862214418,
+        "stop" : 1619862214537,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get grid line",
+      "time" : {
+        "start" : 1619862214537,
+        "stop" : 1619862214537,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "key",
+        "value" : "97e037d4-d918-41dc-ac55-bb786fa31e63"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1619862216059,
+      "stop" : 1619862216140,
+      "duration" : 81
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.TestCategoryPage"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestCategoryPage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUpdateCategory"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Petland Admin"
+  }, {
+    "name" : "suite",
+    "value" : "Category Page"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.TestCategoryPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az129-152"
+  }, {
+    "name" : "thread",
+    "value" : "3752@fv-az129-152.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Admin can update category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a957633d5a59465b.json",
+  "parameterValues" : [ ]
+}
